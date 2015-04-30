@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@drawable/loginimage"
+     >
+
+<LinearLayout  android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+         >
+ <Button android:id="@+id/btnAdminUploadVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:text="UPLOAD VIDEO"
+        android:layout_marginTop="3dip"/>
+    <Button
+        android:id="@+id/btnAuthorizeStudent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:text="AUTHORIZE STUDENT"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAuthorizeStaff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:text="AUTHORIZE STAFF"
+        android:textStyle="bold" />
+    
+    <Button android:id="@+id/btnUnapprovedStudent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:text="UNAUTHORIZE STUDENT"
+        android:layout_marginTop="3dip"/>
+   
+    <Button android:id="@+id/btnUnapprovedStaff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:text="UNAUTHORIZE STAFF"
+        android:layout_marginTop="3dip"/>
+    
+<Button android:id="@+id/btnAdminChangePassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:text="CHANGE PASSWORD"
+        android:layout_marginTop="3dip"/>
+
+<Button android:id="@+id/btnAdminDeleteVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:text="DELETE VIDEO"
+        android:layout_marginTop="3dip"/>
+
+<Button android:id="@+id/btnAdminDeleteStudentAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:text="DELETE STUDENT ACCOUNT"
+        android:layout_marginTop="3dip"/>
+
+<Button android:id="@+id/btnAdminDeleteStaffAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:text="DELETE STAFF ACCOUNT"
+        android:layout_marginTop="3dip"/>
+
+</LinearLayout>
+</ScrollView>

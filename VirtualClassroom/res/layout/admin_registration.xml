@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@drawable/imgggg"
+     >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+       
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="ADMIN REGISTRATION"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+        
+        <!--  Username Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Username" />
+        <!--  Username TextField -->
+        <EditText
+            android:id="@+id/admin_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+       
+        <!--  Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Password" />
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/admin_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+        
+         <!--  Confirm Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Confirm Password" />
+        <!-- Confirm Password TextField -->
+        <EditText
+            android:id="@+id/admin_confirmPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+         
+         <!--  Security Question Label -->
+         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Question" />
+        <!--  Security Question TextField -->
+        <EditText
+            android:id="@+id/adminSecurityQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+       
+        <!--  Security Answer Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer" />
+        <!--  Security Answer TextField -->
+        <EditText
+            android:id="@+id/adminSecutiyQuestionAnswer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+       <!--  Security key Label -->
+       <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Key" />
+        <!--  Security key TextField -->
+        <EditText
+            android:id="@+id/adminSecurityKey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <!--  Error message -->
+        <TextView android:id="@+id/login_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+ 
+        <!--  Login Button -->       
+        <Button
+            android:id="@+id/btnAdminRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Register" />
+        
+    </LinearLayout>
+ 
+</ScrollView>

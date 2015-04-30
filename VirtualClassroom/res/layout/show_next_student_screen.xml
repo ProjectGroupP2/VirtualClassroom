@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@drawable/loginimage"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="VIDEO LIST"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+            
+        <!--  Login Button -->       
+        <Button
+            android:id="@+id/btnPreviouslyPlayedVideos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="SHOW PREVISOUSLY PLAYED VIDEOS" />
+ 
+        <!--  Link to Registration Screen -->
+        <Button
+            android:id="@+id/btnAllSubjectsList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+          
+            android:text="SHOW SUBJECTWISE VIDEOS"
+          
+             />
+    </LinearLayout>
+ 
+</ScrollView>

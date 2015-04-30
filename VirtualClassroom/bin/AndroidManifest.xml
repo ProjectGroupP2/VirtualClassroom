@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.virtualclassroomproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.virtualclassroom.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.DisplayBookmarkSubjectList"
+            android:label="SUBJECT LIST" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.UploadToServer"
+            android:label="UPLOAD FILE" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.DeleteStaffAccount"
+            android:label="DELETE STAFF ACCOUNT" >
+        </activity>
+     
+        <activity
+            android:name="com.example.virtualclassroom.RecordVideo"
+            android:label="RECORD VIDEOS" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.ResumeVideo"
+            android:label="RESUME VIDEOS" >
+        </activity>
+ <activity
+            android:name="com.example.virtualclassroom.ResumeVideo1"
+            android:label="RESUME VIDEOS" >
+        </activity>
+         
+         <activity
+            android:name="com.example.virtualclassroom.ShowPreviouslyPlayedVideos"
+            android:label="BOOKMARKED VIDEOS" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.StudentLogin"
+            android:label="STUDENT LOGIN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.StaffLogin"
+            android:label="STAFF LOGIN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.AdministratorLogin"
+            android:label="ADMINISTRATOR LOGIN" >
+        </activity>
+        
+        <activity
+            android:name="com.example.virtualclassroom.StudentNewRegistration"
+            android:label="NEW STUDENT REGISTRATION" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.StaffNewRegistration"
+            android:label="NEW STAFF REGISTRATION" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.AdministratorNewRegistration"
+            android:label="NEW ADMINISTRATOR REGISTRATION" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.StudentForgetPassword"
+            android:label="STUDENT FORGET PASSWORD" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.StaffForgetPassword"
+            android:label="STAFF FORGET PASSWORD" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.AdministratorForgetPassword"
+            android:label="ADMINISTRATOR FORGET PASSWORD" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.StudentRegistrationSuccessful"
+            android:label="STUDENT DISPLAY SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.StaffLoginSuccessful"
+            android:label="STAFF DISPLAY SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.StaffChangePassword"
+            android:label="STAFF CHANGE PASSWORD SCREEN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.UploadVideo"
+            android:label="STAFF UPLOAD VIDEO SCREEN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.DisplayVideoList"
+            android:label="VIDEO LIST SCREEN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.ShowSubjectList"
+            android:label="SUBJECT LIST SCREEN" >
+        </activity>
+        
+        <activity
+            android:name="com.example.virtualclassroom.PlayVideo"
+            android:label="PLAY VIDEO SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.DisplayData"
+            android:label="PLAY VIDEO SCREEN" >
+        </activity>
+        
+          <activity
+            android:name="com.example.virtualclassroom.AuthorizeStudentList"
+            android:label="AUTHORIZE STUDENT SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.UnauthorizeStudentList"
+            android:label="UNAUTHORIZE STUDENT SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.AuthorizeStaffList"
+            android:label="AUTHORIZE STAFF SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.UnauthorizeStaffList"
+            android:label="UNAUTHORIZE STAFF SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.AdminRegistrationSuccessful"
+            android:label="ADMIN SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.DeleteVideos"
+            android:label="ADMIN DELETE VIDEO SCREEN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.DeleteAccount"
+            android:label="ADMIN DELETE ACCOUNT SCREEN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.VideoCapture"
+            android:label="UNAUTHORIZE STAFF SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.DisplaySubjectList"
+            android:label="SUBJECT LIST SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.DisplayPreviousVideoList"
+            android:label="VIDEO LIST SCREEN" >
+        </activity>
+         <activity
+            android:name="com.example.virtualclassroom.FinalVideoUpload"
+            android:label="FINAL VIDEO UPLOAD SCREEN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.Test"
+            android:label="PLAY VIDEO SCREEN" >
+        </activity>
+        <activity
+            android:name="com.example.virtualclassroom.AdministratorChangePassword"
+            android:label="ADMINISTRATOR CHANGE PASSWORD SCREEN" >
+        </activity>
+    </application>
+	<uses-permission android:name="android.permission.INTERNET" />
+ 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    
+    <uses-feature android:name="android.hardware.camera" />
+ 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+</manifest>

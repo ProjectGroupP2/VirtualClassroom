@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <VideoView
+        android:id="@+id/VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <!-- <Button -->
+    <!-- android:id="@+id/buttonPlay" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentTop="true" -->
+    <!-- android:layout_marginLeft="23dp" -->
+    <!-- android:layout_toRightOf="@+id/buttonPause" -->
+    <!-- android:text="PLAY" /> -->
+
+   <TextView
+       android:id="@+id/displayComment"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="28dp"
+       android:layout_toRightOf="@+id/buttonPause"
+       android:text="" />
+
+   <Button
+       android:id="@+id/buttonPause"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="48dp"
+       android:text="Bookmark Video" />
+
+</RelativeLayout>

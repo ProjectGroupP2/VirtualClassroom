@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="DELETE VIDEO"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Standard" />
+        
+
+        <EditText
+            android:id="@+id/deleteVideostandard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+       
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Subject" />
+        
+
+        <EditText
+            android:id="@+id/deleteVideoSubject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Video Name" />
+        
+
+        <EditText
+            android:id="@+id/deleteVideoName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <Button
+            android:id="@+id/btnDeleteVideo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:text="DELETE VIDEO"
+             />
+         
+</LinearLayout>

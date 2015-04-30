@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background = "@drawable/imgg"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to VirtualClassroom "
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/btnStudentLogin"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="STUDENT LOGIN" />
+    
+    <Button
+        android:id="@+id/btnStaffLogin"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="STAFF LOGIN" />
+
+     <!--  Button to create a new product screen -->
+
+    <Button
+        android:id="@+id/btnAdminLogin"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="ADMIN LOGIN" />
+
+ </LinearLayout>

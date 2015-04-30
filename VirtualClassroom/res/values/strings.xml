@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VirtualClassroomProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="standard_prompt">Choose Standard</string>
+    <string-array name="standard_arrays">
+      	 <item>Select Standard</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+   </string-array>
+    
+    <string name="notification">type Registration Security Question Here..</string>
+    
+   
+</resources>
+
+

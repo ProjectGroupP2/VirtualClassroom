@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background = "@drawable/uploadvideo">
+
+    <TextView
+        android:id="@+id/txtStaffUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="94dp"
+        android:text="UserName" />
+
+    <EditText
+        android:id="@+id/editDeleteStaffUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtStaffUserName"
+        android:layout_alignBottom="@+id/txtStaffUserName"
+        android:layout_alignParentRight="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnStaffDeleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDeleteStaffUserName"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@+id/txtStaffUserName"
+        android:text="Delete" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Delete Staff Account"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@drawable/imgggg"
+    >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+       
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="STUDENT REGISTRATION"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+        
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name" />
+        
+        <EditText
+            android:id="@+id/studentFirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+       
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Middle Name" />
+        
+        <EditText
+            android:id="@+id/studentMiddleName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+       
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name" />
+       
+        <EditText
+            android:id="@+id/studentLastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Standard" />
+        
+        <EditText
+            android:id="@+id/studentStandard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+              
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Branch" />
+        
+        <EditText
+            android:id="@+id/studentBranch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+         
+       
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll Number" />
+        
+        <EditText
+            android:id="@+id/studentRollNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:inputType="number" />
+         
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Password" />
+        
+        <EditText
+            android:id="@+id/studentPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+        
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Confirm Password" />
+        <!-- Confirm Password TextField -->
+        <EditText
+            android:id="@+id/StudentConfirmPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+        
+         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Security Question" />
+        
+        <EditText
+            android:id="@+id/studentSecurityQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer" />
+        
+        <EditText
+            android:id="@+id/studentAnswer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+            
+        <Button
+            android:id="@+id/btnStudentRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Register" />
+        
+    </LinearLayout>
+ </ScrollView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+     <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:padding="10dip" >
+           
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+             android:id="@+id/StaffRegistrationErrorMessage"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="STAFF REGISTRATION"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+        
+        <!--  First Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name" />
+        <!--  First Name TextField -->
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+       
+        <!--  Middle Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Middle Name" />
+        <!--  Middle Name TextField -->
+        <EditText
+            android:id="@+id/middleName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+       
+        <!--  Last Name Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name" />
+        <!--  Last Name TextField -->
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+        <!--  UserName Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name" />
+        <!--  Last Name TextField -->
+        <EditText
+            android:id="@+id/staffNewUserName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+         <!--  Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Password" />
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/staffNewpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+        
+         <!--  Confirm Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Confirm Password" />
+        <!-- Confirm Password TextField -->
+        <EditText
+            android:id="@+id/confirmStaffPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Enter Security Question" />
+        <!--  Password TextField -->
+
+        <EditText
+            android:id="@+id/staffRegistrationSecurityQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/notification" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Enter the Answer" />
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/staffRegistrationAnswer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+        
+        <!--  Error message -->
+        <TextView android:id="@+id/login_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+ 
+        <!--  Login Button -->       
+        <Button
+            android:id="@+id/btnStaffRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Register" />
+</RelativeLayout>
+</RelativeLayout>
